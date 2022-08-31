@@ -4,24 +4,24 @@
 
 #### What is meant by a binary relation?
 A binary relation is similar to function, but more general.
-$$\text{Let}\quad A = \set{1, 2, 9\} \quad\text{and}\quad B = \{1, 3, 7\}$$
-A binary relation $R$ is a set of ordered pairs, of elements of sets $A$ and $B$, that associates elements of the domain set with the elements of the codomain set. Thus if relation $R$ is 'less than',
-$$R = \set{(1, 3), (1, 7), (2, 3), (2, 7)\}$$
+$$\text{Let}\quad A = \set{1, 2, 9} \quad\text{and}\quad B = \{1, 3, 7}$$
+A binary relation $R$ is a set of ordered pairs of elements from sets $A$ and $B$, that associates elements of set $A$ with elements of set $B$ where the relation's condition is fulfilled. Thus for the relation $R$ 'less than',
+$$R = \set{(1, 3), (1, 7), (2, 3), (2, 7)}$$
 
 The domain set is defined as the elements of set $A$ whose ordered pairs $(a, b)$ belong to the binary relation $R$.
-$$\text{Dom}(R) = \set{ a | (a, b) \in R \}$$
-$$\text{Dom}(R) = \set{1, 2\}$$
+$$\text{Dom}(R) = \set{ a | (a, b) \in R }$$
+$$\text{Dom}(R) = \set{1, 2}$$
 
 The range set is defined as the elements of set $B$ whose ordered pairs $(a, b)$ belong to the binary relation.
-$$\text{Ran}(R) = \set{ b | (a, b) \in R \}$$
-$$\text{Ran}(R) = \set{3, 7\}$$
+$$\text{Ran}(R) = \set{ b | (a, b) \in R }$$
+$$\text{Ran}(R) = \set{3, 7}$$
 
 The domain set is therefore the set of elements representing the inputs, whereas the range set is the set of elements representing the outputs. The codomain set is the set of elements from which the range set takes its values.
 
 #### An example of a different binary relation
 If relation $R$ is 'greater than',
-$$R = \set{(2, 1), (9, 1), (9, 3), (9, 7) \}$$
-$$\text{Dom}(R) = \set{2, 9\} \qquad \text{Ran}(R) = \set{1, 3, 7\}$$
+$$R = \set{(2, 1), (9, 1), (9, 3), (9, 7) }$$
+$$\text{Dom}(R) = \set{2, 9} \qquad \text{Ran}(R) = \set{1, 3, 7}$$
 
 #### What possible cardinalities can a binary relation have?
 - One to one
